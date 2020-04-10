@@ -10,13 +10,54 @@
 
 <style>
 .allbackground{background-color:lightsteelblue}
+.text-light{color:black}
+.h5{color: #000;}
 
 </style>
 
 
+
 <body class= 'allbackground'>
-    <h1>I'm tired of not understanding</h1>
-    <h2>Me too</h2>
+
+    <div class=container>
+        <h1>I'm home</h1>
+        <h2>Welcome!</h2>
+        <ul class="nav justify-content-end bg-white">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="file:///Users/henrigaspard/Desktop/DAB_QQ/Week%2011%20-%20Web/hwqq/web-design-challenge-qq/WebVisualizations/main.html">Home</a>
+                    <a class="dropdown-item" href="file:///Users/henrigaspard/Desktop/DAB_QQ/Week%2011%20-%20Web/hwqq/web-design-challenge-qq/WebVisualizations/max_temp.html">Max Temperature</a>
+                </div>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="file:///Users/henrigaspard/Desktop/DAB_QQ/Week%2011%20-%20Web/hwqq/web-design-challenge-qq/WebVisualizations/comparison.html">Comparison</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="file:///Users/henrigaspard/Desktop/DAB_QQ/Week%2011%20-%20Web/hwqq/web-design-challenge-qq/WebVisualizations/data.html">Data</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class= container>
+        <div class=bg-white>
+            <div class="row">
+                <div class ="col-lg-7 col-md-12 col-sm-12 ml-3 tam mr-3 p-3">
+                    <h1 class="text-info ml-2">Summary: Latitude vs X</h1>
+                    <h5 class="text-light">_______________________________________________________________________________</h5>
+                    <br>
+                    <h5 class="text-light">The purpose of this project was to analyze how weather changes as you get closer to the equator. 
+                        To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                    </h5>
+                    <img class= "img-fluid" src="visualizations/latitude_vs_temperature.png"></img>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
